@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_acc"
+        android:icon="@drawable/ic_accessibility_white_24dp"
+        android:title="Accessibility"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_computer"
+        android:icon="@drawable/ic_computer_white_24dp"
+        android:title="Computer"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_error"
+        android:icon="@drawable/ic_error_white_24dp"
+        android:title="Error"
+        app:showAsAction="never" />
+
+</menu>
