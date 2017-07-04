@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Above Android 5.0 Api=21 system status bar can not set attr -->
+    <!-- 系统顶部状态栏 5.0以前 无法指定其颜色 -->
+    <style name="SpecialActivityTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -22,7 +22,8 @@
 
         <activity
             android:name=".CollapseToolbarActivity"
-            android:label="CollapseToolbar" />
+            android:label="CollapseToolbar"
+            android:theme="@style/SpecialActivityTheme" />
 
         <activity
             android:name=".ScrollingActivity"

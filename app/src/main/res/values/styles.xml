@@ -8,8 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!-- 此为空设置 兼容5.0以前的系统 api21 之前无法设置系统状态栏的颜色 -->
+    <style name="SpecialActivityTheme" parent="AppTheme">
+    </style>
 
+    <!-- Android auto generate -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
